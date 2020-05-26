@@ -2659,7 +2659,7 @@ de-indent@^1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/de-indent/download/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
 
-debug@*, debug@^4.1.0:
+debug@*, debug@^4.0.1, debug@^4.1.0:
   version "4.1.1"
   resolved "http://registry.npm.taobao.org/debug/download/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   dependencies:
@@ -3093,12 +3093,12 @@ electron-builder@^19.19.1:
     update-notifier "^2.3.0"
     yargs "^11.0.0"
 
-electron-debug@^1.4.0:
-  version "1.5.0"
-  resolved "http://registry.npm.taobao.org/electron-debug/download/electron-debug-1.5.0.tgz#d88c02146efb7fc5ae1b21eac56fbe4987eae50c"
+electron-debug@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/electron-debug/-/electron-debug-3.1.0.tgz#0df17297487fa3c82344d810812853bf67f0bd69"
   dependencies:
-    electron-is-dev "^0.3.0"
-    electron-localshortcut "^3.0.0"
+    electron-is-dev "^1.1.0"
+    electron-localshortcut "^3.1.0"
 
 electron-devtools-installer@^2.2.0:
   version "2.2.4"
@@ -3151,13 +3151,17 @@ electron-is-dev@^0.3.0:
   version "0.3.0"
   resolved "http://registry.npm.taobao.org/electron-is-dev/download/electron-is-dev-0.3.0.tgz#14e6fda5c68e9e4ecbeff9ccf037cbd7c05c5afe"
 
-electron-localshortcut@^3.0.0:
-  version "3.1.0"
-  resolved "http://registry.npm.taobao.org/electron-localshortcut/download/electron-localshortcut-3.1.0.tgz#10c1ffd537b8d39170aaf6e1551341f7780dd2ce"
+electron-is-dev@^1.1.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-1.2.0.tgz#2e5cea0a1b3ccf1c86f577cee77363ef55deb05e"
+
+electron-localshortcut@^3.1.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/electron-localshortcut/-/electron-localshortcut-3.2.1.tgz#cfc83a3eff5e28faf98ddcc87f80a2ce4f623cd3"
   dependencies:
-    debug "^2.6.8"
+    debug "^4.0.1"
     electron-is-accelerator "^0.1.0"
-    keyboardevent-from-electron-accelerator "^1.1.0"
+    keyboardevent-from-electron-accelerator "^2.0.0"
     keyboardevents-areequal "^0.2.1"
 
 electron-log@^2.2.17:
@@ -4995,9 +4999,9 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-keyboardevent-from-electron-accelerator@^1.1.0:
-  version "1.1.0"
-  resolved "http://registry.npm.taobao.org/keyboardevent-from-electron-accelerator/download/keyboardevent-from-electron-accelerator-1.1.0.tgz#324614f6e33490c37ffc5be5876b3e85fe223c84"
+keyboardevent-from-electron-accelerator@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/keyboardevent-from-electron-accelerator/-/keyboardevent-from-electron-accelerator-2.0.0.tgz#ace21b1aa4e47148815d160057f9edb66567c50c"
 
 keyboardevents-areequal@^0.2.1:
   version "0.2.2"
